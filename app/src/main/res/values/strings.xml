@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidAssment</string>
+    <string name="no_internet_connection">Network Unavailable</string>
+    <string name="internet_check">Please verify your internet connectivity.</string>
+    <string name="close">CLOSE</string>
+    <string name="actid">actid</string>
+    <string name="name">name</string>
+    <string name="get_all_accounts">Get All Accounts</string>
+    <string name="store_account_details_to_room_database">Store Account details to Room Database</string>
+    <string name="enter_alternate_name">Enter Alternate Name</string>
+    <string name="actual_name">Actual Name</string>
+    <string name="click_image">Click image</string>
+    <string name="select_image_type">Select Image type</string>
+    <string name="image_capture_and_gallery_selection">Image Capture and Gallery Selection</string>
+    <string name="display_pdf">Display Pdf</string>
+</resources>

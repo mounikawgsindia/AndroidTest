@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidAssignment" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Optionally, set a dark theme for better visibility -->
+        <item name="android:statusBarColor">@android:color/black</item>
+
+        <!-- Optional: Adjust other UI elements -->
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.AndroidAssignment" parent="Base.Theme.AndroidAssignment" />
+    <style name="NormalTextStyle_white">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+    </style>
+    <style name="NormalTextStyle_red">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="HeadingTextStyle_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sos_text_black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="NormalTextStyle_green">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+    </style>
+    <style name="NormalTextStyle_grey">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:fontFamily">ssans-serif-condensed-medium</item>
+    </style>
+    <style name="NormalTextStyle_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/sos_text_black</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+    </style>
+</resources>
