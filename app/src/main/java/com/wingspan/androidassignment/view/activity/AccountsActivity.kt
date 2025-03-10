@@ -1,4 +1,4 @@
-package com.wingspan.androidassignment.view
+package com.wingspan.androidassignment.view.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -68,7 +68,7 @@ class AccountsActivity : AppCompatActivity() {
 
             }
             viewDataBtn.setDebouncedClickListener {
-                val intent= Intent(this@AccountsActivity,RoomActivity::class.java)
+                val intent= Intent(this@AccountsActivity, RoomActivity::class.java)
                 startActivity(intent)
             }
         }

@@ -1,4 +1,4 @@
-package com.wingspan.androidassignment.view
+package com.wingspan.androidassignment.view.activity
 
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity

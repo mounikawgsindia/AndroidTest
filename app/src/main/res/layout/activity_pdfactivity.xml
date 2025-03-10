@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDownloadPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download PDF"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple_effect"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpenDownloadedPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Downloaded PDF"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple_effect"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

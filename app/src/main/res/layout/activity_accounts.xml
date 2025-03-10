@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.wingspan.androidassignment.view.AccountsActivity">
+        tools:context="com.wingspan.androidassignment.view.activity.AccountsActivity">
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
         android:layout_width="match_parent"

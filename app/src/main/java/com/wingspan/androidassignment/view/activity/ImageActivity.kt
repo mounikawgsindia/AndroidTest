@@ -1,17 +1,14 @@
-package com.wingspan.androidassignment.view
+package com.wingspan.androidassignment.view.activity
 
 import android.Manifest
 import android.annotation.SuppressLint
 import android.app.AlertDialog
-import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
-import android.provider.MediaStore
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -20,7 +17,6 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.bumptech.glide.Glide
 import com.wingspan.androidassignment.extensions.Singleton.setDebouncedClickListener
-import com.wingspan.androidassment.R
 import com.wingspan.androidassment.databinding.ActivityImageBinding
 import com.wingspan.androidassment.databinding.AlertdialogImageBinding
 import java.io.File
